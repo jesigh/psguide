@@ -1,0 +1,72 @@
+body {
+    background-color: gray;
+    color: lightgray;
+    font-family: sans-serif;
+}
+header {
+    margin: 0;
+}
+.loginNav {
+    text-align: end;
+}
+/* nav element | flex container */
+.pageNav {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+/* li element */
+.loginList {
+    list-style: none;
+    display: inline;
+}
+/* li element | flex items */
+.pageList {
+    list-style: none;
+    /* border: 1px solid black; */
+}
+/* "a" element */
+.loginLink {
+    text-decoration: none;
+}
+/* "a" element */
+.pageLink {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover {
+    color: aqua;
+}
+main {
+
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    border: 2px solid black;
+}
+/* section is a "flex" container */
+section {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;
+    /* flex-direction: column;
+    - puts things back in a single
+    column, like before display: flex;
+    was added */
+}
+/* "flex" item inside of section */
+article {
+    flex: 200px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 0 10px 10px 10px;
+    font-size: 25px;
+    word-break: break-all;
+}
+

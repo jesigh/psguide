@@ -1,72 +1,61 @@
-body {
-    background-color: gray;
-    color: lightgray;
-    font-family: sans-serif;
-}
-header {
-    margin: 0;
-}
+/* START header styling */
 .loginNav {
     text-align: end;
 }
-/* nav element | flex container */
-.pageNav {
-    /* border: 1px solid black; */
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-/* li element */
 .loginList {
-    list-style: none;
     display: inline;
-}
-/* li element | flex items */
-.pageList {
     list-style: none;
-    /* border: 1px solid black; */
 }
-/* "a" element */
 .loginLink {
     text-decoration: none;
+    color: black;
 }
-/* "a" element */
-.pageLink {
-    color: lightgray;
-    text-decoration: none;
-    font-size: 25px;
-}
-a:hover {
+.loginLink:hover {
     color: aqua;
 }
-main {
+.pageNav {
+    text-align: center;
+}
+.pageList {
+    display: inline;
+    margin: 0 20px;
+}
+.pageLink {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.pageLink:hover {
+    color: aqua;
+}
 
+/* End header styling */
+
+/* START footer styling */
+/* END footer styling */
+
+/* START index styling */
+body {
+    background: linear-gradient(to bottom right, blue, pink);
+    font-family: sans-serif;
 }
-h1 {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 50px;
-    border: 2px solid black;
-}
-/* section is a "flex" container */
-section {
-    flex-wrap: wrap;
+main {
     display: flex;
-    margin: 10px;
-    /* flex-direction: column;
-    - puts things back in a single
-    column, like before display: flex;
-    was added */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
-/* "flex" item inside of section */
-article {
-    flex: 200px;
-    text-align: center;
+img {
+    align-self: stretch;
+    max-width: 400px;
+    max-height: 400px;
     border: 5px solid black;
     border-radius: 20px;
-    margin: 0 10px 10px 10px;
-    font-size: 25px;
-    word-break: break-all;
+    margin: 10px auto;
 }
+/* END index styling */
 
+/* START other pages styling */
+/* END other pages styling */
